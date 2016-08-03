@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <style>
+        body,
+        html {
+            margin: 0;
+            height: 100%;
+            transition: background 1s ease;
+            background: lightyellow;
+        }
+        h1 {
+            font-style: italic;
+        }
+        ul {
+            margin: 0;
+        }
+        .current-page {
+            font-style: italic;
+        }
+        #loader {
+            visibility: hidden;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#/" class="ajax-link" data-bg-color="lightyellow">Home</a></li>
+            <li><a href="#/about" class="ajax-link" data-bg-color="lightgreen">About</a></li>
+            <li><a href="#/work" class="ajax-link" data-bg-color="lightblue">Work</a></li>
+            <li><a href="#/blog" class="ajax-link" data-bg-color="lightpink">Blog</a></li>
+            <li><a href="#/false" class="ajax-link" data-bg-color="lightred">False link</a></li>
+        </ul>
+    </nav>
+    <div id="loader">Loading...</div>
+    <main id="main"></main>
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
