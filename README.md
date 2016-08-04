@@ -15,5 +15,6 @@ Optionally, you can pass a `data-bg-color` attribute, so the background color ch
 Depends on:
 - jQuery
 - [PACE](http://github.hubspot.com/pace/docs/welcome/)
+
 Dev dependencies:
 - [js-Logger](https://github.com/jonnyreeves/js-logger)
