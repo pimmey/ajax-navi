@@ -1,0 +1,26 @@
+{
+  "name": "ajax-navi",
+  "version": "1.0.0",
+  "description": "Mini AJAX navigation",
+  "main": "ajax-navi.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pimmey/ajax-navi.git"
+  },
+  "keywords": [
+    "Ajax",
+    "navigation"
+  ],
+  "author": "Yegor Borisenco <pimmey@pimmey.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pimmey/ajax-navi/issues"
+  },
+  "homepage": "https://github.com/pimmey/ajax-navi#readme",
+  "devDependencies": {
+    "gulp-minify": "0.0.13"
+  }
+}
